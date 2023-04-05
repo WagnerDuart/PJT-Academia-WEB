@@ -1,4 +1,5 @@
 
+{% load static %}
 <!--==================== MAIN ====================-->
 
 <main class="main">
@@ -16,7 +17,7 @@
                 </a>
             </div>
             <div class="home__images">
-                <img src="./static/img/home-img.png" alt="homeimage" class="home__img">
+                <img src=".{%static 'academia/images/home-img.png' %}" alt="homeimage" class="home__img">
                 <div class="home__triangle home__triangle-3"></div>
                 <div class="home__triangle home__triangle-2"></div>
                 <div class="home__triangle home__triangle-1"></div>
@@ -27,11 +28,11 @@
     <!--==================== LOGOS ====================-->
     <section class="logos section">
         <div class="logos__container container grid">
-            <img src="/static/img/logo1.png" alt="logo image" class="logos__img">
-            <img src="/static/img/logo2.png" alt="logo image" class="logos__img">
-            <img src="/static/img/logo3.png" alt="logo image" class="logos__img">
-            <img src="/static/img/logo4.png" alt="logo image" class="logos__img">
-        </div>
+            <img src="{%static 'academia/images/logo1.png' %}" alt="logo image" class="logos__img">
+            <img src="{%static 'academia/images/logo2.png' %}" alt="logo image" class="logos__img">
+            <img src="{%static 'academia/images/logo3.png' %}" alt="logo image" class="logos__img">
+            <img src="{%static 'academia/images/logo4.png' %}" alt="logo image" class="logos__img">
+
     </section>
 
     <!--==================== PROGRAM ====================-->
@@ -48,7 +49,7 @@
 
                 <article class="program__card">
                     <div class="program__shape">
-                        <img src="./static/img/program1.png" alt="program image" class="program__img">
+                        <img src=".{%static 'academia/images/program1.png' %}" alt="program image" class="program__img">
                     </div>
                     <h3 class="program__title">Treino</h3>
                     <p class="program__description">
@@ -62,7 +63,7 @@
 
                 <article class="program__card">
                     <div class="program__shape">
-                        <img src="./static/img/program2.png" alt="program image" class="program__img">
+                        <img src=".{%static 'academia/images/program2.png' %}" alt="program image" class="program__img">
                     </div>
                     <h3 class="program__title">Queime Calorias com a Zumba</h3>
                     <p class="program__description">
@@ -77,7 +78,7 @@
 
                 <article class="program__card">
                     <div class="program__shape">
-                        <img src="./static/img/program3.png" alt="program image" class="program__img">
+                        <img src=".{%static 'academia/images/program3.png' %}" alt="program image" class="program__img">
                     </div>
                     <h3 class="program__title"> Condicionamento Físico com o Jiu-Jitsu </h3>
                     <p class="program__description">
@@ -92,7 +93,7 @@
 
                 <article class="program__card">
                     <div class="program__shape">
-                        <img src="./static/img/program4.png" alt="program image" class="program__img">
+                        <img src=".{%static 'academia/images/program4.png" alt="program image' %}" class="program__img">
                     </div>
                     <h3 class="program__title">Muay Thai para o Corpo e a Mente</h3>
                     <p class="program__description">
@@ -146,7 +147,7 @@
                     </div>
                 </div>
                 <div class="choose__images">
-                    <img src="/static/img/choose-img.png" alt="choose image" class="choose__img">
+                    <img src="{%static 'academia/images/choose-img.png' %}" alt="choose image" class="choose__img">
                     <div class="choose__triangle choose__triangle-1"></div>
                     <div class="choose__triangle choose__triangle-2"></div>
                     <div class="choose__triangle choose__triangle-3"></div>
@@ -171,7 +172,7 @@
                 <article class="Planos__card">
                     <header class="Planos__header">
                         <div class="Planos__shape">
-                            <img src="/static/img/Planos1.png" alt="Planos image" class="Planos__img">
+                            <img src="{%static 'academia/images/Planos1.png' %}" alt="Planos image" class="Planos__img">
                         </div>
                         <h1 class="Planos__title">TREINO PERSONALIZADO</h1>
                         <h2 class="Planos__number">R$100</h2>
@@ -201,7 +202,7 @@
                 <article class="Planos__card Planos__card-active">
                     <header class="Planos__header">
                         <div class="Planos__shape">
-                            <img src="/static/img/Planos2.png" alt="Planos image" class="Planos__img">
+                            <img src="{%static 'academia/images/Planos2.png' %}" alt="Planos image" class="Planos__img">
                         </div>
                         <h1 class="Planos__title">Jiu-Jitsu</h1>
                         <h2 class="Planos__number">R$70</h2>
@@ -231,7 +232,7 @@
                 <article class="Planos__card">
                     <header class="Planos__header">
                         <div class="Planos__shape">
-                            <img src="/static/img/Planos3.png" alt="Planos image" class="Planos__img">
+                            <img src="{%static 'academia/images/Planos3.png' %}" alt="Planos image" class="Planos__img">
                         </div>
                         <h1 class="Planos__title">Muay Thai </h1>
                         <h2 class="Planos__number">R$70</h2>
@@ -289,7 +290,7 @@
                 </form>
                 <p class="calculate__message" id="calculate-message"></p>
             </div>
-            <img src="/static/img/Patrick.png" alt="PATRICK image" class="calculate__img">
+            <img src="{%static 'academia/images/Patrick.png' %}" alt="PATRICK image" class="calculate__img">
         </div>
     </section>
 </main>
