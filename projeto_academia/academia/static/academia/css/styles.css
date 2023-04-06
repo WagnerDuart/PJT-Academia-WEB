@@ -1,12 +1,4 @@
-.header {
-    width: 100%;
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: var(--z-fixed);
-    transition: background .3s;
-}
+
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
 
@@ -63,6 +55,16 @@
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
   }
+}
+
+.header {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    transition: background .3s;
 }
 
 /*=============== BASE ===============*/
@@ -376,6 +378,8 @@ img {
   transform: translateX(.25rem);
 }
 
+/*1*/
+
 /*=============== LOGOS ===============*/
 
 .logos__container {
@@ -636,6 +640,8 @@ img {
   color: var(--title-color-black);
 }
 
+/*2*/
+
 /*=============== CALCULATE ===============*/
 
 .calculate {
@@ -862,6 +868,7 @@ img {
 }
 
 
+/*3*/
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
